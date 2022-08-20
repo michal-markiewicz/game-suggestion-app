@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <div id="poll-creation-container">
+        <label for="poll-name-input" style="padding-top: 0px;">Poll name</label>
+        <input type="text" id="poll-name-input">
+
+        <label for="poll-description-input">Poll description</label>
+        <textarea id="poll-description-input" cols="10" rows="10"></textarea>
+
+        <button>Add poll</button>
+    </div>
+
+    <div id="existing-polls-container">
+        <div class="poll">
+            <h2>This is poll name</h2>
+
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Consequuntur aspernatur dolorem sed vero officia, iusto deleniti. 
+                Ipsa, iste dignissimos facere blanditiis, obcaecati quam qui 
+                fuga quos mollitia voluptatibus, nemo ab!
+            </p>
+
+            <ol>
+                <li>Game</li>
+                <li>Game</li>
+                <li>Game</li>
+                <li>Game</li>
+                <li>Game</li>
+                <li>Game</li>
+                <li>Game</li>
+                <li>Game</li>
+                <li>Game</li>
+                <li>Game</li>
+            </ol>
+
+            <input type="text" placeholder="Find game...">
+            <button>Vote</button>
+
+        </div>
+    </div>
+
+    <script src="api.js" type="module"></script>
+    <script src="client.js" type="module"></script>
+    <script src="polls.js" type="module"></script>
+</body>
+</html>
