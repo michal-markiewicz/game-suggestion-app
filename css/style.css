@@ -80,6 +80,11 @@ body
     text-align: center;
 }
 
+#existing-polls-container .poll 
+{
+    width: 100%;
+}
+
 #existing-polls-container .poll p
 {
     text-align: left;
@@ -129,4 +134,29 @@ body
     border: 2px solid #FFD369;
 }
 
+#existing-polls-container .poll ul li
+{
+    font-weight: 300;
+    font-size: 13px;
+}
+
 /* Existing polls sidebar stop */
+
+@media only screen and (min-width: 800px)
+{
+    body 
+    {
+        display: flex;
+        justify-content: center;
+    }
+
+    #poll-creation-container
+    {
+        width: 50%;
+    }
+
+    #existing-polls-container
+    {
+        width: 50%;
+    }
+}
