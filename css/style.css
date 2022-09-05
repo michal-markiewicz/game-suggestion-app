@@ -59,12 +59,19 @@ body
 #poll-creation-container button 
 {
     background-color: #FFD369;
+    cursor: pointer;
     color: #000;
     width: 120px;
     border: none;
     padding-top: 8px;
     padding-bottom: 8px;
     border-radius: 30px;
+    transition: 240ms ease-in-out;
+}
+
+#poll-creation-container button:hover 
+{
+    opacity: 0.7;
 }
 
 /* Poll creation sidebar stop */
@@ -126,6 +133,13 @@ body
     padding-top: 8px;
     padding-bottom: 8px;
     border-radius: 30px;
+    cursor: pointer;
+    transition: 240ms ease-in-out;
+}
+
+#existing-polls-container button:hover 
+{
+    opacity: 0.7;
 }
 
 #existing-polls-container input:focus
